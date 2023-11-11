@@ -46,7 +46,7 @@ nav{
     
     font-size: 6em;
     padding-left: 30px;
-    color: #eaf205;
+    color: #FFF064;
 }
 nav ul li{
     display: inline;
@@ -67,7 +67,7 @@ nav ul li a::after{
     content:'';
     width: 0;
     height: 5px;
-    background: #eaf205;
+    background: #FFF064;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -80,7 +80,7 @@ nav ul li a:hover::after{
     /* margin-top: -30%; */
     text-align: center;
     font-size: 30px;
-    color: #eaf205;
+    color:#FFF064;
     /* border: 5px solid orange; */
     width: 100%;
     height: 82%;
@@ -96,7 +96,7 @@ nav ul li a:hover::after{
 
 /********about*********/
 #about{
-    background: #eaf205;
+    background: #FFF064;
     width: 100%;
     height: 750px;
     padding:80px 0;
@@ -127,7 +127,7 @@ nav ul li a:hover::after{
 .about-p{
     font-size: 3.5em;
     margin-left: 150px;
-    color: #eaf205;
+    color: #FFF064;
     font-weight: bold;
 }
 .about-p>span{
@@ -136,19 +136,19 @@ nav ul li a:hover::after{
 }
 .about-p2{
     font-size: 3.5em;
-    color: #eaf205;
+    color: #FFF064;
     font-weight: bold;
     margin-left: 100px;
 }
 .about-p3{
     font-size: 3.5em;
-    color: #eaf205;
+    color: #FFF064;
     font-weight: bold;
     margin-left: 150px;
 }
 .about-p4{
     font-size: 3.5em;
-    color: #eaf205;
+    color: #FFF064;
     font-weight: bold;
     margin-left: 50px;
 }
@@ -156,13 +156,13 @@ nav ul li a:hover::after{
 .about-p5{
     font-size: 3.5em;
     font-weight: bold;
-    color: #eaf205;
+    color: #FFF064;
    margin-left: 165px; 
 }
 .about-p6{
     font-size: 3.5em;
     font-weight: bold;
-    color: #eaf205;
+    color: #FFF064;
    margin-left: 120px; 
 }
 span{
@@ -248,7 +248,7 @@ hr{
 .section{
     width: 100%;
     height: 750px;
-    background: #eaf205;
+    background: #FFF064;
     display: flex;
 }
 .section >.left{
@@ -292,7 +292,7 @@ hr{
     justify-content: center;
 }
 #portfolio > .left>.section-box{
-    border: 10px solid #eaf205;
+    border: 10px solid #FFF064;
     text-align: center;
     padding: 50px;
 }
@@ -345,7 +345,7 @@ hr{
     color: #ababab;
 
     display: flex;
-    background: #eaf205;
+    background: #FFF064;
 }
 #contact>.container{
     display: flex;
