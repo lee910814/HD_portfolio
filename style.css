@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+body{
+    background: #fff;
+    color: #000;
+}
+
+ 
+/*header*/
+#header{
+    width: 100%;
+    height: 750px;
+    background-image: url(images/이의정1.png);
+    background-size:300px;
+    background-position: center;
+    /* border: 5px solid yellow; */
+    
+}
+.container{
+    /* padding: 10px 10%; */
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid blue; */
+}
+
+/*nav*/
+nav{
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 5px solid red; */
+    text-align: center;
+    position: fixed;
+    margin-top: -20px;
+}
+
+/****logo*****/
+.logo{
+    
+    font-size: 6em;
+    padding-left: 30px;
+    color: #eaf205;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: -10px  40px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav ul li a{
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    position:relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 5px;
+    background: #eaf205;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    /* margin-top: -30%; */
+    text-align: center;
+    font-size: 30px;
+    color: #eaf205;
+    /* border: 5px solid orange; */
+    width: 100%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text h1{
+    font-size: 5em;
+   
+}
+
+
+/********about*********/
+#about{
+    background: #eaf205;
+    width: 100%;
+    height: 750px;
+    padding:80px 0;
+    color: #ababab;
+    /* border: 1px solid #000; */
+    display: flex;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/****img*****/
+.lee{
+    width: 900px;
+    margin-top: -400px;
+    margin-left: -100px;
+}
+.about-h1{
+    font-size: 4.5em;
+    margin-left: 110px;
+    margin-top: 50px;
+    z-index: 1;
+    color: #fff
+}
+.about-p{
+    font-size: 3.5em;
+    margin-left: 150px;
+    color: #eaf205;
+    font-weight: bold;
+}
+.about-p>span{
+    color: red;
+    font-size: 1.5em;
+}
+.about-p2{
+    font-size: 3.5em;
+    color: #eaf205;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.about-p3{
+    font-size: 3.5em;
+    color: #eaf205;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.about-p4{
+    font-size: 3.5em;
+    color: #eaf205;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.about-p5{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #eaf205;
+   margin-left: 165px; 
+}
+.about-p6{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #eaf205;
+   margin-left: 120px; 
+}
+span{
+    color: red;
+}
+.png{
+    width: 150px;
+    margin: 20px;
+    
+   
+}
+
+
+.about-col-1{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    height: 750px;
+    margin-top: -80px;
+}
+
+/***about-col-2******/
+.about-col-2{
+    width: 50%;
+    height: 750px;
+    margin-top: -80px;
+    /* border: 5px solid red; */
+    text-align: center;
+}
+.about-col-2>h1{
+    text-align: left;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+
+.about-col-2 > p{
+    text-align: left;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+}
+hr{
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #fff;
+    width: 90%;
+}
+.about-col-2 > span{
+    color: rgb(148, 23, 23);
+}
+/* .p1{
+ font-weight: bold;
+} */
+
+
+/*porfolio*/
+#video{
+    width: 100%;
+    height: 750px;
+    color: #ababab;
+    display: flex;
+}
+#video>.container{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-img{
+    width: 500px;
+    margin-left: -40px;
+    margin-right: 50px;
+}
+.video{
+    width: 800px;
+}
+
+/*section*/
+.section{
+    width: 100%;
+    height: 750px;
+    background: #eaf205;
+    display: flex;
+}
+.section >.left{
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.section>.rigth{
+    width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.section>.rigth>.vlog{
+    border: 10px solid #fff;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}.section>.rigth>.vlog>img{
+    margin-top: 20px;
+}
+.another{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/*section2*/
+#portfolio{
+    width: 100%;
+    height: 750px;
+    background: #fff;
+    display: flex;
+}
+
+#portfolio > .left{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#portfolio > .left>.section-box{
+    border: 10px solid #eaf205;
+    text-align: center;
+    padding: 50px;
+}
+#portfolio > .left>.section-box>img{
+    margin-top: 20px;
+}
+#portfolio > .left>.section-box>p{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#portfolio>.rigth{
+    width: 65%;
+    height: 750px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+       
+}
+#portfolio>.rigth>.img-a
+{ 
+    width: 100%;
+    padding: 0;
+    text-align: center;
+
+}
+#portfolio>.rigth>.img-a>img{
+    width: 800px;
+    height: 1200px;
+    margin-top: -150px;
+}
+
+
+
+/* .img-r{
+    width: 800px;
+    height: 650px;
+    margin-top:-200px;
+    /* margin-left: 90px; */
+    
+/* } */ 
+
+
+/*contact*/
+#contact{
+    width: 100%;
+    height: 750px;
+    padding:80px 0;
+    color: #ababab;
+    border: 1px solid #000;
+    display: flex;
+    background: #eaf205;
+}
+#contact>.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact>.container>p{
+    font-size: 3em;
+    color: #fff;
+    font-family:  Courier;
+    text-shadow: 6px 2px 2px gray; 
+    font-weight: bold;
+}
+.line{
+    border-left: 5px solid #fff;
+    height: 50px;
+    margin: 30px;
+}
+.p2{
+    margin-top: 35px;
+    color: #fff;
+}
