@@ -92,6 +92,12 @@ nav ul li a:hover::after{
     font-size: 5em;
    
 }
+.header-text p{
+    margin-top: -120px;
+    font-size: 1em;
+    color: #4BAF4B;
+    font-weight: bold;
+}
 
 
 /********about*********/
@@ -166,7 +172,7 @@ nav ul li a:hover::after{
    margin-left: 120px; 
 }
 span{
-    color: red;
+    color: #4BAF4B;
 }
 .png{
     width: 150px;
@@ -202,7 +208,7 @@ span{
 
 .about-col-2 > p{
     text-align: left;
-    color: #fff;
+    color: #000;
     margin-bottom: 5px;
     font-size: 1.3em;
 }
@@ -214,7 +220,7 @@ hr{
     width: 90%;
 }
 .about-col-2 > span{
-    color: rgb(148, 23, 23);
+    color: #4BAF4B;
 }
 /* .p1{
  font-weight: bold;
